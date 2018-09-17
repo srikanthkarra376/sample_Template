@@ -1,0 +1,99 @@
+header #twitter {
+  font-size:30px;
+  text-align:center;
+  padding-top:30px;
+}
+header #loadBtn {
+
+ padding-top:40px; 
+}
+header #loadBtn i {
+  margin-right:10px ;
+}
+header #loadBtn a {
+  border-radius:15px;
+  text-decoration:none;
+}
+header #loadBtn a:hover {
+  transition: 1s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+header #loadBtn a span {
+  padding-left:10px; 
+}
+main {
+margin-top:70px;
+}
+main div.card-body {
+  padding:15px;
+}
+main strong {
+  padding:15px 15px 15px 0;
+}
+main div.card:hover{
+  z-index:1;
+  transition: 1s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+main .card-text {
+  padding-top:20px;
+}
+
+section #main-span {
+  width:230px;
+  font-size:30px;
+  padding-right:100px;
+  border-bottom: 3px solid red;
+}
+section #main-span-2 {
+  width:75%;
+  padding-left:100px;
+}
+section a i.fa-times {
+  font-size:30px;
+  padding-top:15px;
+}
+section #accordion p {
+  padding:25px;
+  border-bottom: 2px solid black;
+}
+footer {
+ margin-top:80px;
+ background-color:#ccc;
+ color:#000;
+}
+fooetr .container {
+  background-color:#ccc;
+}
+#accordion button span {
+ text-align: right;
+}
+section .card {
+  border-bottom:5px soild black;
+}
+section #accordion p {
+border-bottom: 10px soild black;
+  width :100%;
+  cursor: pointer;
+  font-size:20px;
+  font-weight:300;
+}
+section #accordion .card {
+  border-bottom:5px soild
+}
+section #accordion .card p span{
+  padding-left:500px;
+}
+section #accordion p span i {
+  padding-left:10px;
+  font-size:20px;
+}
+
+footer .fa-twitter {
+  
+  font-size:30px;
+  padding:40px 0 0 50px;
+}
+footer address {
+  padding:25px 0 0 50px;
+}
