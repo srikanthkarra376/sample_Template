@@ -7,6 +7,10 @@ header #loadBtn {
 
  padding-top:40px; 
 }
+main img{
+ background-color:#ccc;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
 header #loadBtn i {
   margin-right:10px ;
 }
@@ -38,14 +42,23 @@ main div.card:hover{
 main .card-text {
   padding-top:20px;
 }
-
+#accordion .container{
+  padding:30px;
+}
 section #main-span {
-  width:230px;
+  width:50px;
   font-size:30px;
   padding-right:100px;
-  border-bottom: 3px solid red;
+  border-bottom: 10px solid red;
 }
-section #main-span-2 {
+#accordion .card p span{
+  margin-left:50px;
+  text-align:right;
+}
+section #main-content {
+  display: inline;
+}
+section #main-span-link {
   width:75%;
   padding-left:100px;
 }
@@ -62,7 +75,7 @@ footer {
  background-color:#ccc;
  color:#000;
 }
-fooetr .container {
+footer .container {
   background-color:#ccc;
 }
 #accordion button span {
@@ -82,7 +95,7 @@ section #accordion .card {
   border-bottom:5px soild
 }
 section #accordion .card p span{
-  padding-left:500px;
+ float: right;
 }
 section #accordion p span i {
   padding-left:10px;
