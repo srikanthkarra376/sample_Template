@@ -58,6 +58,9 @@ section #main-span {
 section #main-content {
   display: inline;
 }
+section {
+  margin-top:78px;
+}
 section #main-span-link {
   width:75%;
   padding-left:100px;
@@ -97,9 +100,16 @@ section #accordion .card {
 section #accordion .card p span{
  float: right;
 }
+#main-span-link  {
+  cursor: pointer;
+  margin-left:400px;
+}
 section #accordion p span i {
+  display:flex;
+  float:right;
   padding-left:10px;
   font-size:20px;
+  cursor: pointer;
 }
 
 footer .fa-twitter {
